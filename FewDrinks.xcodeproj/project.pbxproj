@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C514C9C92712F9C600EBD2E6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514C9C82712F9C600EBD2E6 /* Question.swift */; };
 		C514C9CB271301B800EBD2E6 /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = C514C9CA271301B800EBD2E6 /* Questions.json */; };
+		C561412B2714CBA300D5F390 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = C561412A2714CBA300D5F390 /* test.txt */; };
 		C5623BD82711D7AA0053D974 /* InitGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5623BD72711D7AA0053D974 /* InitGameView.swift */; };
 		C5623BDA2711D7EE0053D974 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5623BD92711D7EE0053D974 /* GameView.swift */; };
 		C5623BDD2711DAD70053D974 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5623BDC2711DAD70053D974 /* GameViewModel.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		C514C9C82712F9C600EBD2E6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C514C9CA271301B800EBD2E6 /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		C561412A2714CBA300D5F390 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		C5623BD72711D7AA0053D974 /* InitGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitGameView.swift; sourceTree = "<group>"; };
 		C5623BD92711D7EE0053D974 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C5623BDC2711DAD70053D974 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		C5A58E572711D6C400FC5DC2 /* FewDrinks */ = {
 			isa = PBXGroup;
 			children = (
+				C561412A2714CBA300D5F390 /* test.txt */,
 				C514C9CA271301B800EBD2E6 /* Questions.json */,
 				C5623BDB2711DAC60053D974 /* ViewModels */,
 				C5A58E822711D71000FC5DC2 /* Views */,
@@ -267,6 +270,7 @@
 			files = (
 				C5A58E602711D6C800FC5DC2 /* Preview Assets.xcassets in Resources */,
 				C514C9CB271301B800EBD2E6 /* Questions.json in Resources */,
+				C561412B2714CBA300D5F390 /* test.txt in Resources */,
 				C5A58E5D2711D6C800FC5DC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
