@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Question : Codable, Identifiable {
+struct Question {
     enum CodingKeys : CodingKey {
         case question
         case choice_one

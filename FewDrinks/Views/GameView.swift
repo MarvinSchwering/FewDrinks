@@ -20,9 +20,6 @@ struct GameView: View {
                     player
                     question
                     choices
-                    List(viewModel.questions){ question in
-                            Text(question.question)
-                    }
                 }
             }.navigationBarHidden(true)
         }
