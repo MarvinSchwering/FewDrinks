@@ -34,7 +34,7 @@ struct GameView: View {
     }
     
     var choices : some View {
-        HStack {
+        HStack(alignment: .top, spacing: 0) {
             NavigationLink("", destination: GameView()
                             .navigationBarBackButtonHidden(true)
                             .navigationBarHidden(true), isActive: $showGameView)
@@ -50,8 +50,9 @@ struct GameView: View {
                     showGameView.toggle()
                 }
             }, label: {
-                Text("C1")
-            })
+                Text("")
+            }).frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.green)
             Button(action: {
                 viewModel.addChoice(choice: 1)
                 if viewModel.roundDone() {
@@ -61,8 +62,9 @@ struct GameView: View {
                     showGameView.toggle()
                 }
             }, label: {
-                Text("C2")
-            })
+                Text("")
+            }).frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.red)
         }
     }
 }
