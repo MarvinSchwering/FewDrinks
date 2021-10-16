@@ -14,8 +14,10 @@ struct GameView: View {
     @State private var showRoundDoneView = false
     
     var body: some View {
+        
         NavigationView {
             ZStack {
+                Color("grey").ignoresSafeArea()
                 VStack {
                     player
                     question
@@ -26,7 +28,7 @@ struct GameView: View {
     }
     
     var player : some View {
-        Text(viewModel.getCurrentPlayerName())
+        Text(viewModel.getCurrentPlayerName()).bold()
     }
     
     var question : some View {

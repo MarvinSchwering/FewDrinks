@@ -17,6 +17,7 @@ struct RoundDoneView: View {
     
     var body: some View {
         VStack {
+            
             Text("Players who lost:")
             List {
                 ForEach(viewModel.drinkers, id: \.self) { player in
@@ -25,6 +26,7 @@ struct RoundDoneView: View {
             }
             
             HStack {
+                
                 NavigationLink("", destination: InitGameView( playerName: "")
                                 .navigationBarBackButtonHidden(true)
                                 .navigationBarHidden(true), isActive: $showInitGameView)
