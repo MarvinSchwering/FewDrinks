@@ -14,6 +14,17 @@ struct IntroView: View {
     // Navigate to game view
     @State private var showGameView = false
     
+    // For responsive size
+    @ScaledMetric var size: CGFloat = 1
+    
+    var width: CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return UIScreen.main.bounds.width * 0.9
+        } else {
+            return UIScreen.main.bounds.width * 0.4
+        }
+    }
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -24,7 +35,11 @@ struct IntroView: View {
                 showGameView.toggle()
             }, label: {
                 Text("New Game")
-            })
+            }).foregroundColor(Color.white)
+                    .padding()
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                    .cornerRadius(10.0)
+                    .frame(maxWidth: .infinity)
             
 
             }.navigationBarHidden(true)
