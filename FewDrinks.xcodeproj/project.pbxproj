@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D09232A271AC543009574FC /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D092329271AC543009574FC /* BackgroundView.swift */; };
 		C514C9C92712F9C600EBD2E6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514C9C82712F9C600EBD2E6 /* Question.swift */; };
 		C514C9CB271301B800EBD2E6 /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = C514C9CA271301B800EBD2E6 /* Questions.json */; };
 		C561412B2714CBA300D5F390 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = C561412A2714CBA300D5F390 /* test.txt */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D092329271AC543009574FC /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		C514C9C82712F9C600EBD2E6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C514C9CA271301B800EBD2E6 /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		C561412A2714CBA300D5F390 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				C5623BD72711D7AA0053D974 /* InitGameView.swift */,
 				C5623BD92711D7EE0053D974 /* GameView.swift */,
 				C5623BDE2711E16E0053D974 /* RoundDoneView.swift */,
+				4D092329271AC543009574FC /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				C5A58E5B2711D6C400FC5DC2 /* IntroView.swift in Sources */,
 				C5623BDF2711E16E0053D974 /* RoundDoneView.swift in Sources */,
+				4D09232A271AC543009574FC /* BackgroundView.swift in Sources */,
 				C5A58E592711D6C400FC5DC2 /* FewDrinksApp.swift in Sources */,
 				C5623BDA2711D7EE0053D974 /* GameView.swift in Sources */,
 				C5623BDD2711DAD70053D974 /* GameViewModel.swift in Sources */,
