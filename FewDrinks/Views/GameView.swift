@@ -53,6 +53,7 @@ struct GameView: View {
                 Text("")
             }).frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.green)
+                .ignoresSafeArea()
             Button(action: {
                 viewModel.addChoice(choice: 1)
                 if viewModel.roundDone() {
@@ -65,6 +66,7 @@ struct GameView: View {
                 Text("")
             }).frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.red)
+                .ignoresSafeArea()
         }
     }
 }
